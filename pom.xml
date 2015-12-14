@@ -12,4 +12,14 @@
   <modules>
     <module>simple-parent</module>
   </modules>
+  <distributionManagement>
+    <repository>
+      <id>repo1</id>
+      <url>vhttp://192.168.1.103:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo1</id>
+      <url>http://192.168.1.103:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
